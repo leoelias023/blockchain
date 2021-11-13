@@ -2,7 +2,6 @@ package core.entity;
 
 import com.google.common.hash.Hashing;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.stream.IntStream;
@@ -10,7 +9,6 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.ToString;
-import lombok.val;
 
 @Getter
 @ToString
